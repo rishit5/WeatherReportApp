@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+body {
+    background-image: linear-gradient(to right top, #ef5455, #7a1e02);
+    font-family: "Open Sans", serif;
+}
+.mainbox {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.outerbox {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #242238;
+    /* box-shadow: 5px 10px #888888; */
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    /* border: 2px solid black; */
+}
+.leftbox {
+    background-image: url('bg.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+    display: inline-block;
+    width: 40%;
+    height: 30vw;
+    padding-top: 10vw;
+}
+.rightbox {
+    padding: 7% 10% 0 0 ;
+    /* background-color: gray; */
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    /* display: inline-block; */
+    float: right;
+}
+input:focus {
+    outline: none;
+}
+::placeholder {
+    color: wheat;
+    opacity: 0.5;
+}
+input {
+    font-size: 0.85em;
+    height: 2vw;
+    font-size: 1em;
+    width: 30%;
+    font-weight: 400;
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: #242238;
+    border: none;
+    border-bottom: 2px solid #ef5455;
+    border-radius: 1px;
+}
+button {
+    /* font-size: 0.85em; */
+    border-radius: 1px;
+    width: 20%;
+    height: 30px;
+    /* height: 2.2vw; */
+    background-color: #ef5455;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin-left: 25px;
+    /* margin-right: 50px; */
+}
+.result {
+    text-align: left;
+}
+.tinybox {
+    width: 40%;
+    padding-bottom: 10px;
+    margin-left: 65px;
+    /* display: inline; */
+    margin-top: 30px;
+    color: white;
+    border-bottom:0.52px #ef5455 solid;
+}
+.attribute {
+    color: #ef5455;
+}
